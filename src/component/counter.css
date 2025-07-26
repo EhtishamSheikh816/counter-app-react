@@ -1,0 +1,53 @@
+.main {
+  width: 350px;
+  height: 450px;
+  background-color: #2d2d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px whitesmoke;
+}
+
+.head1 {
+  color: aqua;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.countSec {
+  background-color: #333;
+  color: white;
+  width: 280px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.countText {
+  font-size: 150px;
+  font-weight: 600;
+}
+
+.btnSec {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 30px;
+}
+
+.btnSec button {
+  background-color: #333;
+  color: white;
+  padding: 6px 18px;
+  border: 1px solid gray;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
